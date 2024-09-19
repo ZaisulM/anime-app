@@ -1,0 +1,150 @@
+.anime {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+}
+
+/* AnimeList.css */
+.anime-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.anime-item {
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.anime-thumbnail {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+/* Main container for image and details */
+.anime-details-container {
+  display: flex; /* Flexbox layout for side-by-side view */
+  align-items: flex-start; /* Align items at the start */
+  gap: 20px; /* Space between the image and details */
+}
+
+/* Left section for the image */
+.anime-image-container {
+  flex: 1; /* Image occupies space on the left */
+  max-width: 350px; /* Set a max width for the image */
+}
+
+.anime-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Right section for title, synopsis, and score */
+.anime-details {
+  flex: 2; /* Details occupy more space on the right */
+  display: flex; /* Make it a flex container */
+  flex-direction: row; /* Layout the title and synopsis in a row */
+  justify-content: space-between; /* Spread the title and synopsis */
+  align-items: flex-start; /* Align at the top */
+  width: 100%;
+}
+
+.anime-info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.anime-score {
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  width: 50%;
+  text-align: right;
+}
+
+.anime-score span {
+  color: rgb(50, 168, 50);
+}
+
+.anime-details h2 {
+  margin: 0;
+  font-size: 2rem; /* Adjusted title size */
+}
+
+.synopsis {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.6;
+  font-style: initial;
+}
+
+.back-button {
+  display: flex;
+  margin-bottom: 2rem;
+  padding: 10px 20px; /* Smaller padding for the back button */
+  font-size: 16px; /* Reduced font size */
+  background-color: #0f0f0f; /* Lighter background */
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+  color: #0f0f0f;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination-button {
+  padding: 10px 20px;
+}
+
+.pagination-button:hover {
+  background-color: #af5927;
+  color: #0f0f0f;
+}
+
+.page-info {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+footer .credit {
+  margin-top: 3rem;
+  padding: 1rem 0 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #b9b9b9;
+}
+
+footer .credit a:hover {
+  color: #4319db;
+}
